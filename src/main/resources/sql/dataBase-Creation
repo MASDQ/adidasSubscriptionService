@@ -1,0 +1,12 @@
+CREATE TABLE `subscriptions` (
+	`Id` INT(11) NOT NULL PRIMARY KEY,
+	`Email` VARCHAR(50) NOT NULL COLLATE 'utf8mb3_general_ci',
+	`DateOfBirth` DATE NOT NULL,
+	`NewsletterId` VARCHAR(50) NOT NULL COLLATE 'utf8mb3_general_ci',
+	`Consent` TINYINT(4) NOT NULL,
+	`Gender` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf8mb3_general_ci',
+	`FirstName` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf8mb3_general_ci'
+)
+COLLATE='utf8mb3_general_ci'
+ENGINE=InnoDB
+;
