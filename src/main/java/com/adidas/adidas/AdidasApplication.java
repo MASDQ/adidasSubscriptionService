@@ -15,16 +15,8 @@ public class AdidasApplication {
 		SpringApplication.run(AdidasApplication.class, args);
 	}
 	//TODO
-	//almacenado real de datos
-	//Seguridad en consulta de datos
-	//resolver problema de Lkn hashmap instead of entities
-	//linkeHashMap
-
-
-	//boo 1 JENkins + loaBalancer + SonarQ
-	//
-	//
-	//
-	// extra Docker  docker local (mail y suscribidor) + docker BD +
-
+	//functional tests
+	//Security Improvement
+	//Solve "LinkedHashMap" bug
+	//JPA test
 }
